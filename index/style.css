@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color:grey;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+  .info-card {
+    width: 30%;
+  }
+
+  .info-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .impact {
+    text-align: center;
+
+    padding: 40px;
+    background-color: #e0e0e0;
+    font-size: 24px;
+  }
+
+  .volunteer {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .support-buttons {
+    text-align: center;
+    margin: 30px;
+  }
+
+  .support-buttons button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .support-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+  .latest-news {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+
+  .latest-news h2 {
+    text-align: center;
+  }
+
+  .news-item {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+

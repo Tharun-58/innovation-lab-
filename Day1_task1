@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 1 - Variables</title>
+  <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+  <h1>Task 1</h1>
+
+  <script src="task1.js"></script>
+</body>
+</html>
+
+
+#java script 
+console.log("=== Task 1: Variables ===");
+var name = "Celine";
+let age = 18;
+const city = "Coimbatore";
+
+console.log("Name (var):", name);
+console.log("Age (let):", age);
+console.log("city (const):", city);
+
+name = "C.W";
+age = 19;
+
+console.log("Modified Name:", name);
+console.log("Modified Age:", age);

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 3 - Operators</title>
+  <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+  <h1>Task 3</h1>
+
+
+  <script src="task3.js"></script>
+</body>
+</html>
+
+#java script 
+console.log("=== Task 3: Operators ===");
+
+let a = 10, b = 3;
+console.log("Add:", a + b);
+console.log("Subtract:", a - b);
+console.log("Multiply:", a * b);
+console.log("Divide:", a / b);
+console.log("Modulus:", a % b);
+
+let x = 5;
+x += 2;
+console.log("x += 2:", x);
+x -= 1;
+console.log("x -= 1:", x);
+
+console.log("10 == '10':", 10 == '10');
+console.log("10 === '10':", 10 === '10');
+console.log("5 > 3:", 5 > 3);
+console.log("5 <= 5:", 5 <= 5)
+
+console.log("true && false:", true && false);
+console.log("true || false:", true || false);
+console.log("!true:", !true);
+
+let mark = 60;
+let grade = (mark >= 50) ? "Pass" : "Fail";
+console.log("Ternary Result:", grade);
+
+console.log("5 & 1:", 5 & 1);
+console.log("5 | 1:", 5 | 1);
+console.log("5 ^ 1:", 5 ^ 1);
+console.log("~5:", ~5);
+console.log("5 << 1:", 5 << 1);
+console.log("5 >> 1:", 5 >> 1);
+
+let count = 5;
+console.log("Original:", count);
+console.log("Post-Increment:", count++);
+console.log("After:", count);
+console.log("Pre-Decrement:", --count);

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.js">
+        <link rel="stylesheet" href="style.css">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Celine</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </head>
+    <body>
+        <main>
+        <header><nav><ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </nav></ul></header>
+        
+        <section id="home">
+        <h1>Celine</h1>
+        <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" alt="no image" width="100px" height="100px">
+        <caption class="cs">Currently studying B.Sc CT</caption>
+        <div class="btn-cl">
+        <div class="btn"><a href="sample-1.pdf" download> Download Resume</a></div>
+        <div class="btn"><a href="contact">Contact number</a></div>
+      </div>
+        </section>
+
+        <section id="#about">
+            <h3>About</h3>
+            <p>Celine, student of Kg College of Arts and science, says she always makes sure to write a professional bio in first-person, even if she’s writing on behalf of someone else.
+                “Particularly on social media channels like LinkedIn, using first person comes across as more authentic and personable,” she adds.</p>
+            
+        </section>
+        <section id="#skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Singing</li>
+            </ul>
+        </section>
+        <section id="#projects">
+            <h3>Projects</h3>
+            <h4>Smart Automation</h4>
+            <div>An IoT based device used in homes and home-based appliances</div>
+        </section>
+        <section id="#contact">
+            <h2>Contact</h2>
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name"></br><br>
+                <label for="email">Email</label><br>
+                <input type="email" email = "email" id="email"></br><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea><br><br>
+                <label for="number">Contact Number</label><br>
+                <input type="number" name="number" id="number"><br><br>
+
+                <button>Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p>
+                <a href="LinkedIn">LinkedIn</a><br><br>
+                <a href="GitHub">GitHub</a> 
+            </p>
+            <p>&copy; All Reseverd and Copy Righted</p>
+        </footer>
+        
+        </section>
+    </body>
+</html>

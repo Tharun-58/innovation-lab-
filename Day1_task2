@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 2</title>
+  <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+  <h1>Task 2: Data Types & Conversion</h1>
+
+
+  <script src="task2.js"></script>
+</body>
+</html>
+
+#javaScript
+Types & Type Conversion ===");
+
+let num = 100;
+let str = "150";
+let bool = true;
+let nullVal = null;
+let undef;
+let obj = { name: "Celine", age: 19 };
+
+console.log("Number:", num);
+console.log("String:", str);
+console.log("Boolean:", bool);
+console.log("Null:", nullVal);
+console.log("Undefined:", undef);
+console.log("Object:", obj);
+
+let nToStr = String(num);
+let sToNum = Number(str);
+let auto = "10" * 2;
+
+console.log("Number to String:", nToStr);
+console.log("String to Number:", sToNum);
+console.log("Implicit Conversion (\"10\" * 2):", auto);
